@@ -1,0 +1,10 @@
+sal=int(input("enter salary"))
+sal_inc=int(input("enter increment"))
+percentage=(sal_inc / 100)
+sal_incd=(sal * percentage + sal)
+print("salary increased",sal_incd)
+
+bon=int(input("enter bonus"))
+bon_d=int(input("enter bonus decrease"))
+bon_r=(bon - bon_d)
+print("bonus remaining" ,bon_r)

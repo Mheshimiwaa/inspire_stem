@@ -1,5 +1,6 @@
-
-#This is a programme to solve surface area of cone
+#Date : 20/02/2024
+#This is a programme to solve surface area of cylinde
+#Name : Michael macharia
 import math
 
 

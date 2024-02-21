@@ -1,7 +1,0 @@
-print("My name is Michael")
-print("I am 18 years old")
-print("i come from murang'a county")
-print("i love gaming, cooking, watching")
-print("-------------")
-print("*************")
-print("#############")
