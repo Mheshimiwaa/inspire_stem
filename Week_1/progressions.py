@@ -5,7 +5,7 @@
 #arithmetic progressions
 
 a1=int(input("enter first term: "))
-d1=int(inpt("enter common difference: "))
+d1=int(input("enter common difference: "))
 n=int(input("enter number of terms: "))
 nth=(a1 + (n - 1)*d1)
 print("solution of nth term",nth)
@@ -17,3 +17,4 @@ r=int(input("enter common ratio: "))
 nr=int(input("enter number of terms: "))
 nthr=(a2 * r **(n-1))
 print("solution of the nth term",nthr)
+
