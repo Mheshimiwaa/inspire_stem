@@ -24,6 +24,22 @@ print("solution of bonus that remained", bonus_remained)
 total_income=(sal_increased + bonus_remained)
 print("total income after adjustments", total_income)
 
+salary=int(input("enter salary :"))
+if salary >100000 :
+ salary =salary * 0.3 + salary
+ print(salary)
+ print("\t")
+
+if salary >150000:
+ salary =salary * 0.05 + salary
+ print(salary)
+ print("\t")
+ 
+ if salary >100000 and salary <150000:
+  salary =salary * 0.15 + salary
+  print(salary)
+  
+
 
 
 
