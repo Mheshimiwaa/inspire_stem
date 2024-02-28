@@ -23,23 +23,31 @@ print(laptop)
 
 
 #key is before: value is after:.....hence..
-for key,value in laptop.items():
+for key,values in laptop.items():
  print(key)
 print("\n")
-print(value)
+print(values)
 
 bro_laptop=laptop.copy()
 print(bro_laptop)
 
 #describe your favourite car
-
-
-
-
-
-
-
+car={"brand":"BMW","make":"m4","type":"sport","horse power":"503hp","0-60":"3.2s","color":"black"}
+print(car["brand"])
+print(car["make"])
+print(car["type"])
+print(car["horse power"])
+print(car["0-60"])
+print(car["horse power"])
 
 
 #print individual keys,value
+for key,values in car.items():
+ print(key)
+ print("\n")
+print(values)
+
+
 #copy dictionary in another dictionary
+bro_car=car.copy()
+print(bro_car)

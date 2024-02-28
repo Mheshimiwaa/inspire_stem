@@ -8,3 +8,9 @@ print(cities)
 for city in cities:
     print(city)
 
+hobbies=("swimming","gaming","badminton","table tennis","riding bike") 
+print(hobbies)
+
+for hobby in hobbies:
+    print(hobby)
+
