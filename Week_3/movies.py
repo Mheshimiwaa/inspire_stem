@@ -16,10 +16,16 @@ print(Movies)
 
 #reverse
 Movies.reverse()
+
 print("\n")
 print(Movies)
 
 #number of items
 number_of_items=len(Movies)
 print(number_of_items)
+
+Movies.count()
+print("\n")
+print(Movies)
+
 
