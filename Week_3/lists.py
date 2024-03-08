@@ -1,6 +1,6 @@
 items=["pen","ruler","laptop","set"]
 print(items)
-#insert(),index(),count(),sort(),remove()
+#insert(),index(),sort(),remove()
 
 #append()
 items.append("phone")
@@ -17,14 +17,15 @@ items.reverse()
 print("\n")
 print(items)
 
+#Count
 count_of_set=items.count("set")
 print("\n")
 print(count_of_set)
-
+#sort
 items.sort()
 print("\n")
 print(items)
-
+#remove
 items.remove("pen")
 print("\n")
 print(items)

@@ -12,3 +12,5 @@ for name in range(0,5):
          print(1)
 
          print(number)
+
+  #favourite hobbies       

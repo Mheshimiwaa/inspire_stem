@@ -15,7 +15,9 @@ for num in range(lower, upper + 1):
        else:
            print(num)
 
-
+def prime_num():
+    print(1,100)
+    
 
 
 
