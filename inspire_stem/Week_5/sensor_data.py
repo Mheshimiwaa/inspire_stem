@@ -47,7 +47,7 @@ lbl = Label(window, text="Temperature: \nHumidity: ")
 lbl.grid(column=0, row=0)
 
 # Button to start receiving data
-ser = easerial.Serial('COM34', 115200)  # Change the port accordingly
+ser = serial.Serial('COM34', 115200)  # Change the port accordingly
 times = [0]
 temperatures = [0]
 humidities = [0]
